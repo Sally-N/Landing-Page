@@ -11,8 +11,8 @@ font-family: 'Poppins', sans-serif; */
 
 body {
     height: 300vh;
-    width: 1o0vw;
-    background-color: #C3c6cc;
+    width: 100vw;
+    background-color: #2c5223;
 }
 
 #header {
@@ -88,12 +88,106 @@ h2 {
     padding-top: 45px;
     font-family: 'Nanum Gothic', sans-serif;
     padding-right: 45px;
+    font-size: 50px;
 }
 
 video {
     height: 80vh;
-    width: 60vw;
+    width: 100vw;
     align-self: center;
     justify-content: center;
     padding: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    margin-left: 500px;
+    margin-right: 300px;
+    /* align-self: center;
+    justify-content: center; */
+}
+
+#email {
+    height: 90px;
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+}
+
+#submit {
+    height: 50px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: #c1deba;
+    border-style: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+}
+
+.section {
+    margin-left: 70px;
+    height: 350px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.individual {
+    /* flex-direction: row; */
+    /* border: solid; */
+    width: 28vw;
+    height: 350px;
+    justify-content: space-around;
+    background-color: #c1deba;
+    text-align: center;
+    padding: 16px;
+    margin: 15px;
+}
+
+
+/* .style {} */
+
+.headingflex {
+    font-size: 25px;
+}
+
+.paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10PX;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px
+}
+
+.text p {
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: flex-end;
 }
